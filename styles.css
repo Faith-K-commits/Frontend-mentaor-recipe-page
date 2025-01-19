@@ -1,4 +1,4 @@
-/* Fonts */
+/* fonts */
 @font-face {
   font-family: "Young Serif";
   src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
@@ -13,6 +13,7 @@
 :root {
   --clr-Nutmeg: #854632;
   --clr-Dark-Raspberry: #7b284f;
+
   --clr-White: #ffffff;
   --clr-Rose-White: #fff5fa;
   --clr-Eggshell: #f3e6d8;
@@ -29,7 +30,7 @@
   --fw-700: 700;
 }
 
-/* Reset */
+/* reset */
 *,
 *::before,
 *::after {
@@ -52,7 +53,7 @@ h4 {
 
 ul,
 ol {
-  padding: 0.1rem;
+  padding: 0 1rem;
 }
 
 img {
@@ -107,7 +108,7 @@ li::marker {
   place-items: center;
 }
 
-.recipe-wapper {
+.recipe-wrapper {
   max-width: 45em;
   padding: 1.75rem;
   margin: 6rem 0;
@@ -117,7 +118,7 @@ li::marker {
 
 .recipe-img {
   border-radius: 0.8rem;
-  margin-bottom: 2.5 rem;
+  margin-bottom: 2.5rem;
 }
 
 section {
@@ -133,10 +134,10 @@ hr {
 }
 
 .prep-time {
-  background: var(--clr-Eggshell);
   padding: 1.75rem;
   border-radius: 0.8rem;
   margin-top: 2rem;
+  background: var(--clr-Eggshell);
 }
 
 table {
@@ -151,8 +152,9 @@ tr {
   border-bottom: 1px solid var(--clr-Light-Grey);
 }
 
+/* media query */
 @media (max-width: 500px) {
-  .recipe-wapper {
+  .recipe-wrapper {
     margin: 0;
     border-radius: 0;
     padding: 0;
