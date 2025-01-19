@@ -62,19 +62,17 @@ While working on this project, I gained valuable experience in several areas:
 
 Here is an example of a code snippet that demonstrates some of these learnings:
 
-````html
+```html
 <ul class="prep-list">
   <li><span>Total:</span> Approximately 10 minutes</li>
   <li><span>Preparation:</span> 5 minutes</li>
   <li><span>Cooking:</span> 5 minutes</li>
 </ul>
-
-```html
 <tr>
   <td data-cell="nutrient">Calories</td>
   <td data-cell="nutrient-value">277kcal</td>
 </tr>
-````
+```
 
 ```css
 [data-cell="nutrient-value"] {
